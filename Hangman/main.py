@@ -47,7 +47,7 @@ def play_game(index, data):
                     chances -= 1
                     print(f"\nThere is no '{user_guess}'.")
                 
-                print(f"You have {chances} {"chances" if chances > 1 else "chance"} left! \n")
+                print(f"You have {chances} {'chances' if chances > 1 else 'chance'} left! \n")
 
                 displayed = display_word(random_word, correct_guesses)
                 print(f"{displayed}")
